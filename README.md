@@ -6,6 +6,12 @@
 
 >In the project I have used a relational database to create the initial data structure for a vet clinic. I have created a table to store animals' information, insert some data into it, and query it.
 
+In this project, I have used a relational database to create the data structure for a vet clinic. I have started with one table, and step by step, I have created a complete database with data about:
+
+- animals
+- animals' owners
+- clinic employees
+- visits
 
 
 <div>
@@ -108,16 +114,16 @@ Clone this repository to your desired folder:
   git clone https://github.com/MudasirSherwani/Vet-Clinic-Database.git
   cd Vet-Clinic-Database
 ```
+This repository includes files with plain SQL that can be used to recreate a database:
+Use schema.sql to create all tables.
+Use data.sql to populate tables with sample data.
+Check queries.sql for examples of queries that can be run on a newly created database.
 
-
-### Deployment
-
-You can deploy this project using [Github Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
-
+<a name="authors"></a>
 ## 👥 Author
 👤 **Mudasir Sherwani**
 
@@ -125,14 +131,9 @@ You can deploy this project using [Github Pages](https://docs.github.com/en/page
 - Twitter: [@Mudasir Sherwani](https://twitter.com/mudasirsherwani)
 - LinkedIn: [Mudasir Sherwani](https://linkedin.com/in/mudasir-sherwani)
 
-<a name="authors"></a>
- 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
@@ -152,29 +153,7 @@ If you like this project give me a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **What is this project?**
-
-  - It's a project of micoverse curriculum.
-
-- **Is there any SQL database for this site**
-
-  - No, there isn't. However, I used javascirpt objects stored in a file as a small database.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+ 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
