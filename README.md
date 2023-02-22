@@ -161,6 +161,6 @@ If you like this project give me a star.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/MudasirSherwani/Vet-Clinic-Database/blob/main/LICENSE) licensed.
+This project is [MIT](https://github.com/MudasirSherwani/Vet-Clinic-Database/blob/Query-and-update-animals-table/LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
