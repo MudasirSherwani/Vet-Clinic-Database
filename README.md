@@ -55,21 +55,6 @@ In this section of project, I have added some new tables and add foreign key col
 
 ### Tech Stack <a name="tech-stack"></a>
    
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
 <details>
 <summary>Database</summary>
   <ul>
@@ -140,7 +125,7 @@ Check queries.sql for examples of queries that can be run on a newly created dat
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/MudasirSherwani/Vet-Clinic-Databaseissues).
+Feel free to check the [issues page](https://github.com/MudasirSherwani/Vet-Clinic-Database/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -152,7 +137,13 @@ If you like this project give me a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
- 
+ ## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thanks [Microverse](https://www.microverse.org/) to guide me to complete this project.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
