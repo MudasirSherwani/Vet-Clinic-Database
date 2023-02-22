@@ -25,8 +25,6 @@ In this project, I have used a relational database to create the data structure 
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
       - [🔭 Future Features ](#-future-features-)
-  - [🚀 Live Demo ](#-live-demo-)
-  - [🚀 Video Presentation ](#-Video-Project-Presentation-)
   - [💻 Getting Started ](#-getting-started-)
     - [Setup](#setup)
     - [Install](#install)
@@ -95,16 +93,10 @@ In this section of project, I have added some new tables and add foreign key col
 #### 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **Working with Transactions**
-
-
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- <a href="/" target="_blank">Live Demo Link</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- GETTING STARTED -->
