@@ -41,13 +41,17 @@ In this project, I have used a relational database to create the data structure 
   - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
-
-# 📖 Create animals table <a name="about-project"></a>
+# 📖 About the Project <a name="about-project"></a>
+## Create animals table.
 >In the project I have used a relational database to create the initial data structure for a vet clinic. I have created a table to store animals' information, insert some data into it, and query it.
 
 
-# 📖 Query and update animals table
+## Query and update animals table.
 In this section of project, I have used transactions to update and delete records. I have also used my knowledge of aggregate functions and GROUP BY to answer analytical questions.
+
+## Query multiple tables.
+In this section of project, I have added some new tables and add foreign key columns to your existing animals table to model one-to-many relationships. Afterward, I have used JOIN to query the data.
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
