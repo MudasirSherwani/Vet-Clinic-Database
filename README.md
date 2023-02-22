@@ -25,8 +25,6 @@ In this project, I have used a relational database to create the data structure 
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
       - [🔭 Future Features ](#-future-features-)
-  - [🚀 Live Demo ](#-live-demo-)
-  - [🚀 Video Presentation ](#-Video-Project-Presentation-)
   - [💻 Getting Started ](#-getting-started-)
     - [Setup](#setup)
     - [Install](#install)
@@ -41,33 +39,22 @@ In this project, I have used a relational database to create the data structure 
   - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
-
-# 📖 Create animals table <a name="about-project"></a>
+# 📖 About the Project <a name="about-project"></a>
+## Create animals table.
 >In the project I have used a relational database to create the initial data structure for a vet clinic. I have created a table to store animals' information, insert some data into it, and query it.
 
 
-# 📖 Query and update animals table
+## Query and update animals table.
 In this section of project, I have used transactions to update and delete records. I have also used my knowledge of aggregate functions and GROUP BY to answer analytical questions.
+
+## Query multiple tables.
+In this section of project, I have added some new tables and add foreign key columns to your existing animals table to model one-to-many relationships. Afterward, I have used JOIN to query the data.
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
    
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
 <details>
 <summary>Database</summary>
   <ul>
@@ -91,16 +78,10 @@ In this section of project, I have used transactions to update and delete record
 #### 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **Working with Transactions**
-
-
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- <a href="/" target="_blank">Live Demo Link</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- GETTING STARTED -->
@@ -144,7 +125,7 @@ Check queries.sql for examples of queries that can be run on a newly created dat
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/MudasirSherwani/Vet-Clinic-Databaseissues).
+Feel free to check the [issues page](https://github.com/MudasirSherwani/Vet-Clinic-Database/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -156,7 +137,13 @@ If you like this project give me a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
- 
+ ## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thanks [Microverse](https://www.microverse.org/) to guide me to complete this project.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
