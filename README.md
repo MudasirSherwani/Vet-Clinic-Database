@@ -13,7 +13,6 @@ In this project, I have used a relational database to create the data structure 
 - clinic employees
 - visits
 
-
 <div>
 <!-- TABLE OF CONTENTS -->
 
@@ -49,6 +48,9 @@ In this section of project, I have used transactions to update and delete record
 
 ## Query multiple tables.
 In this section of project, I have added some new tables and add foreign key columns to your existing animals table to model one-to-many relationships. Afterward, I have used JOIN to query the data.
+
+## Add "join table" for visits.
+In this section of project, I have added some many-to-many relationships and write more complex queries to use them to answer questions.
 
 
 ## 🛠 Built With <a name="built-with"></a>

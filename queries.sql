@@ -68,3 +68,52 @@ where ow.full_name = 'Dean Winchester' and an.escape_attempts = 0;
 SELECT ow.full_name, COUNT(*) FROM animals an 	INNER JOIN owners ow 
 ON an.owner_id = ow.id GROUP BY ow.full_name ORDER BY COUNT(*) desc
 FETCH FIRST 1 ROWS ONLY;
+
+-- Project#: 4 Vet clinic database: add "join table" for visits
+SELECT vt.name ,an.name ,vs.date_of_visit FROM animals an 
+INNER JOIN visits vs ON an.id = vs.animal_id 
+INNER JOIN vets vt ON vt.id = vs.vet_id
+WHERE vt.name='William Tatcher' ORDER BY  vs.date_of_visit DESC 
+FETCH FIRST 1 ROWS ONLY;
+
+SELECT vt.name,COUNT(vs.date_of_visit) AS Number_of_visits FROM visits vs
+INNER JOIN vets vt ON vt.id = vs.vet_id 
+WHERE vt.name='Stephanie Mendez' GROUP BY vt.name;
+
+SELECT * FROM vets vt
+LEFT JOIN specializations sp ON vt.id = sp.vet_id;
+
+SELECT vt.name AS Vets_Name , an.name AS animal_name, vs.date_of_visit FROM animals an
+INNER JOIN visits vs ON an.id = vs.animal_id 
+INNER JOIN vets vt ON vt.id = vs.vet_id 
+WHERE vt.name='Stephanie Mendez'  AND  vs.date_of_visit BETWEEN '2020-04-01' AND '2020-08-30';
+
+SELECT an.name AS Animal_Name, COUNT(vs.date_of_visit) AS Number_Of_Checkup FROM visits vs
+INNER JOIN animals an ON an.id = vs.animal_id 
+GROUP BY an.name ORDER BY COUNT(vs.date_of_visit) DESC 
+FETCH FIRST 1 ROWS ONLY ;
+
+SELECT vt.name AS Vets_Name, an.name AS Animal_Name, vs.date_of_visit FROM animals an
+INNER JOIN visits vs ON an.id = vs.animal_id 
+INNER JOIN vets vt ON vt.id = vs.vet_id 
+WHERE vt.name='Maisy Smith' ORDER BY  vs.date_of_visit
+FETCH FIRST 1 ROWS ONLY;
+
+SELECT vt.name AS Vet_Name, vt.age, vt.date_of_graduation, vs.date_of_visit, 
+an.name, an.date_of_birth, an.escape_attempts, an.neutered, an.weight_kg FROM visits vs
+INNER JOIN animals an ON an.id = vs.animal_id 
+INNER JOIN vets vt ON vt.id = vs.vet_id
+ORDER BY vs.date_of_visit DESC
+FETCH FIRST 1 ROWS ONLY;
+
+SELECT vt.name, COUNT(*) FROM visits vs
+INNER JOIN vets vt ON vt.id = vs.vet_id 
+INNER JOIN specializations sp ON sp.vet_id = vs.vet_id 
+WHERE sp.species_id IS NULL GROUP BY vt.name;
+
+SELECT vt.name AS Vet_Name, sp.name as Animal_Type, COUNT(sp.name) FROM visits vs
+LEFT JOIN animals an ON an.id = vs.animal_id 
+INNER JOIN vets vt ON vt.id = vs.vet_id 
+INNER JOIN species sp ON sp.id = an.species_id 
+WHERE vt.name = 'Maisy Smith' GROUP BY vt.name, sp.name 
+ORDER BY COUNT DESC FETCH FIRST 1 ROWS ONLY;
