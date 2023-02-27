@@ -110,12 +110,19 @@ Check queries.sql for examples of queries that can be run on a newly created dat
 
 <!-- AUTHORS -->
 <a name="authors"></a>
-## 👥 Author
+## 👥 Authors
+
 👤 **Mudasir Sherwani**
 
 - GitHub: [@Mudasir Sherwani](https://github.com/MudasirSherwani)
 - Twitter: [@Mudasir Sherwani](https://twitter.com/mudasirsherwani)
 - LinkedIn: [Mudasir Sherwani](https://linkedin.com/in/mudasir-sherwani)
+
+👤 **Chimezie Asouzu**
+
+- GitHub: [@Shegy28](https://github.com/shegy28)
+- Twitter: [@Shegy28](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/chimezie-asouzu-67704224a/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
