@@ -75,3 +75,6 @@ CREATE TABLE specializations (
     FOREIGN KEY (animal_id) REFERENCES animals (id),
     FOREIGN KEY (vet_id) REFERENCES vets (id)
     )
+
+-- Project#: 5 Vet clinic database: database performance audit
+    ALTER TABLE owners ADD COLUMN email VARCHAR(120);
