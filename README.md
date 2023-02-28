@@ -52,6 +52,9 @@ In this section of project, I have added some new tables and add foreign key col
 ## Add "join table" for visits.
 In this section of project, I have added some many-to-many relationships and write more complex queries to use them to answer questions.
 
+## Create a database based on a diagram.
+In this section of project, I have created a database clinic with help of diagram, interpret it, and implement the SQL needed to build that database.
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
