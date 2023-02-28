@@ -27,7 +27,6 @@ CREATE TABLE IF NOT EXISTS medical_histories
     CONSTRAINT medical_hist_fkey FOREIGN KEY (medical_history__id) REFERENCES medical_histories (id)
 );
 
-
 CREATE TABLE IF NOT EXISTS invoice_items
 (
     id integer NOT NULL GENERATED ALWAYS AS IDENTITY ( INCREMENT 1 START 1 MINVALUE 1 MAXVALUE 2147483647 CACHE 1 ),
@@ -40,5 +39,13 @@ CREATE TABLE IF NOT EXISTS invoice_items
     CONSTRAINT invoices_fkey FOREIGN KEY (invoice_id) REFERENCES invoices (id)
 );
 
+
+CREATE TABLE IF NOT EXISTS treatments
+(
+    id integer NOT NULL GENERATED ALWAYS AS IDENTITY ( INCREMENT 1 START 1 MINVALUE 1 MAXVALUE 2147483647 CACHE 1 ),
+    type varchar (30) not null,
+    name varchar (50) not null,
+    CONSTRAINT treatment_pkey PRIMARY KEY (id)
+);
 
 
