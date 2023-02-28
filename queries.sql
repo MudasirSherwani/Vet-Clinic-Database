@@ -117,3 +117,8 @@ INNER JOIN vets vt ON vt.id = vs.vet_id
 INNER JOIN species sp ON sp.id = an.species_id 
 WHERE vt.name = 'Maisy Smith' GROUP BY vt.name, sp.name 
 ORDER BY COUNT DESC FETCH FIRST 1 ROWS ONLY;
+
+-- Project#: 5 Vet clinic database: database performance audit
+EXPLAIN ANALYZE SELECT COUNT(*) FROM visits where animal_id = 4;
+EXPLAIN ANALYZE SELECT * FROM visits where vet_id = 2;
+EXPLAIN ANALYZE SELECT * FROM owners where email = 'owner_18327@mail.com';
