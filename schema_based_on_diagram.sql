@@ -48,4 +48,7 @@ CREATE TABLE IF NOT EXISTS treatments
     CONSTRAINT treatment_pkey PRIMARY KEY (id)
 );
 
+ALTER TABLE invoice_items ADD CONSTRAINT treatments_fkey FOREIGN KEY (treatment_id) REFERENCES treatments (id);
+
+
 
